@@ -1,0 +1,22 @@
+/* Backend me manda esto */
+Metodo POST:
+{
+    "concepto": "Electronics",
+    "monto": "2000.00",
+    "numeroDeTarjetaDeudor": "1234567812678394",
+    "cvvDeudor": "439",
+    "fechaDeVencimientoDeudor": "2025-10",
+    "numeroDeCuentaAcredor": "2"
+}
+
+/* En caso de que backend necesite una devolucion */
+Metodo get: rastreo=claveDeRastreo
+
+/* Regreso esto si el cobro se hizo*/
+{ "resultado": "true", "claveDeRastreo": "3" }
+
+/* Regreso esto si la devolucion se hizo*/
+{ "resultado": "true" }
+
+/* O esto si el cobro o devolucion no se hizo*/
+{ "resultado": "false" }
