@@ -1,2 +1,3 @@
 # paymentapi
-API para solicitar cobros y reembolsos
+API to request collections and refunds. Developed in PHP
+MySQL DB
